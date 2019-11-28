@@ -1,5 +1,10 @@
 package com.example.demo.chapter5.pojo;
 
+/**
+ * 性别枚举类
+ * @author 10152323
+ *
+ */
 public enum SexEnum {
 	MALE(1, "男"),
 	FEMALE(2, "女");
