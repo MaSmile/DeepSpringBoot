@@ -2,12 +2,14 @@ package com.example.demo.chapter5.pojo;
 
 import org.apache.ibatis.type.Alias;
 
+// MyBatis指定别名
 @Alias(value = "user")
 public class User {
 	private Long id = null;
 	private String userName = null;
 	private String note = null;
 	
+	// 性别枚举，需要使用typeHandle进行转换
 	private SexEnum sex = null;
 	
 	public User() {}
