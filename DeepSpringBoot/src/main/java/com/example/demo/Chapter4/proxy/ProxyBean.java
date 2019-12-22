@@ -1,12 +1,8 @@
 package com.example.demo.Chapter4.proxy;
 
-import static org.hamcrest.CoreMatchers.nullValue;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-
-import net.bytebuddy.asm.Advice.This;
 
 public class ProxyBean implements InvocationHandler{
 	private Object target = null;

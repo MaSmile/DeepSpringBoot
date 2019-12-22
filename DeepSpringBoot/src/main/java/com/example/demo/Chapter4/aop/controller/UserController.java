@@ -1,14 +1,11 @@
 package com.example.demo.Chapter4.aop.controller;
 
-import static org.hamcrest.CoreMatchers.nullValue;
-
+import com.example.demo.Chapter3.pojo.User;
+import com.example.demo.Chapter4.aop.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-
-import com.example.demo.Chapter3.pojo.User;
-import com.example.demo.Chapter4.aop.service.UserService;
 
 @Controller
 @RequestMapping("/user")
